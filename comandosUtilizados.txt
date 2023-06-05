@@ -1,0 +1,30 @@
+   66  mkdir 20230605-JuranyRamirez
+   67  cd 20230605-JuranyRamirez
+   68  code .
+   69  git init
+   70  touch comandos.txt main.js index.html
+   71  git add .
+   72  git commit -m "commit 01 de JuranyRamirez"
+   73  git branch -M main
+   74  git remote add origin https://github.com/JuranyR/20230605-JuranyRamirez.git
+   75  git push -u origin main
+   76  git checkout -b feature01
+   77  mkdir Terminal Hardware
+   78  cd Terminal
+   79  touch resumen.txt
+   80  cd ..
+   81  cd Hardware
+   82  touch resumen.txt
+   83  git add .
+   84  cd ..
+   85  git add .
+   86  git commit -m "commit 02 de JuranyRamirez"
+   87  git push origin feature01
+   88  git checkout -b feature02
+   89  git add .
+   90  git commit -m "commit 03 de JuranyRamirez"
+   91  git push origin feature02
+   92  git branch main
+   93  git checkout main
+   94  mv comandos.txt comandosUtilizados.txt
+   96  history
