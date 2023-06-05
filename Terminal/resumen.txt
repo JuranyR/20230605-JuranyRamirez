@@ -1,0 +1,5 @@
+mkdir = crear carpetas
+mv = mover archivos
+touch = crear archivos
+cp= copiar archivos
+rm = borrar archivos

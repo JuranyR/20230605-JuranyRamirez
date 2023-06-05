@@ -1,0 +1,3 @@
+placa madre
+disco duro
+procesador
